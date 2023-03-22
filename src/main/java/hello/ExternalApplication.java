@@ -9,6 +9,10 @@ public class ExternalApplication {
     public static void main(String[] args) {
         SpringApplication.run(ExternalApplication.class, args);
         JavaSystem.print();
+
+        for (String arg : args) {
+            System.out.println("arg " + arg);
+        }
     }
 
 }

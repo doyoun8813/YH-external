@@ -8,11 +8,11 @@ public class ExternalApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ExternalApplication.class, args);
-        JavaSystem.print();
+        //JavaSystem.print();
 
-        for (String arg : args) {
+        /*for (String arg : args) {
             System.out.println("arg " + arg);
-        }
+        }*/
     }
 
 }
